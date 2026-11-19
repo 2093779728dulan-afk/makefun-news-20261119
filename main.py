@@ -10,6 +10,7 @@ def main():
     src = os.path.join(script_dir, "assets", "entry.png")
     dst = os.path.join(output_dir, "entry.png")
 
+    # Entry date: 2026-11-19
     with open(src, "rb") as fsrc:
         data = fsrc.read()
 
